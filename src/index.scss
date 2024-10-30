@@ -1,0 +1,97 @@
+body {
+  background-color:rgb(181, 150, 109) ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+  
+  header {
+    background-color: #aeaaaa;
+    color: #fff;
+    padding: 8px 5%;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+
+  // Contact Section
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 35px auto 25px;
+
+  >* {
+      padding: 7px 12px;
+      margin-bottom: 5px;
+      border: none;
+
+  }
+
+  h3 {
+      color: #fff;
+  }
+
+  p.message {
+   color: rgb(30, 117, 30)
+  }
+
+  input,
+  textarea {
+      outline: none;
+      background: #efeaea;
+      border-radius: 3px;
+      
+
+      &::placeholder {
+          color: #aaa;
+
+
+      }
+  }
+
+  button {
+      background: rgb(14, 14, 14);
+      color: #fff;
+      border: 2px solid #eee;
+      border-radius: 3px;
+      cursor: pointer;
+
+      &:hover {
+          background: #eee;
+          color: #444;
+      }
+    }
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 5%;
+    background-color: #aeaaaa;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
