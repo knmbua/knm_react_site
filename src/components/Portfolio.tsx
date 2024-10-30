@@ -1,25 +1,26 @@
+import React from 'react';
 import Project from './Project';
 
 const projects = [
   {
-    title: 'Weather App',
-    description: 'Amazing weather application made with Typescript, Node JS and Vite',
-    backgroundImage: '/work_bg.jpg'
-  },
-  {
     title: 'Employee Tracker',
-    description: 'Intense terminal app made with Node, Postgres, Typescript, and Inquirer',
-    backgroundImage: '/work_bg.jpg'
+    description: 'Terminal app made with Node, Postgres, Typescript, and Inquirer',
+    backgroundImage: '/work_bg.jpg',
+    repoLink: 'https://github.com/knmbua/employee_database_tracker',
+    
   },
   {
     title: 'Vehicle Builder',
-    description: 'Cool terminal app that lets your track and create vehicle data. It was made with Node, Typescript and Inquirer',
-    backgroundImage: '/work_bg.jpg'
+    description: 'Terminal app that lets your track and create vehicle data. It was made with Node, Typescript and Inquirer',
+    backgroundImage: '/work_bg.jpg',
+    repoLink: 'https://github.com/knmbua/vehicle_builder',
   },
   {
     title: 'Readme Generator',
-    description: 'Intense terminal app made with Node, Postgres, Typescript, and Inquirer',
-    backgroundImage: '/work_bg.jpg'
+    description: 'Terminal app made with Node, Postgres, Typescript, and Inquirer',
+    backgroundImage: '/work_bg.jpg',
+    repoLink: 'https://github.com/knmbua/README_generator',
+  
   }
 ];
 
@@ -34,6 +35,7 @@ const Portfolio: React.FC = () => {
             title={project.title}
             description={project.description}
             backgroundImage={project.backgroundImage}
+            repoLink={project.repoLink}
           />
         ))}
       </div>

@@ -9,6 +9,7 @@ KM React Site is a portfolio website built using React and TypeScript. It contai
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [Images](#images)
 - [Deployment](#deployment)
 - [Questions](#questions)
 - [License](#license)
@@ -34,7 +35,14 @@ Footer Component: Appears on multiple pages and includes links to social profile
 Contact Form: Allows visitors to send messages to the developer.
 Responsive Design: Ensures the site looks good on all devices.
 
-
+## Images
+Screenshots of the deployed site
+``img 
+'\public\React About Me.jpg'
+'\public\React Contact Me.jpg'
+'\public\React Portfolio.jpg'
+'\public\React Resume.jpg'
+``
 ## Deployment
 The site is deployed on Netlify.
 
@@ -43,3 +51,6 @@ If you have any questions about the project, please email me at knhopkinson23@gm
 
 ## License
 MIT Licensed
+
+LINK TO DEPLOYED SITE:
+https://knm-react-site.netlify.app
