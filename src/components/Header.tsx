@@ -9,10 +9,16 @@ function Header(){
         <ul>
           <li>
             <NavLink to="/">About Me</NavLink>
+          </li> 
+          <li>
             <NavLink to="/portfolio">Portfolio</NavLink>
+          </li> 
+          <li>
             <NavLink to="/contact">Contact</NavLink>
-            <NavLink to="/resume">Resume</NavLink>
           </li>
+          <li>
+            <NavLink to="/resume">Resume</NavLink>
+          </li> 
         </ul>
       </nav>
     </header>
