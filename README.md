@@ -43,3 +43,6 @@ If you have any questions about the project, please email me at knhopkinson23@gm
 
 ## License
 MIT Licensed
+
+LINK TO DEPLOYED SITE:
+https://knm-react-site.netlify.app
