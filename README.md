@@ -37,12 +37,11 @@ Responsive Design: Ensures the site looks good on all devices.
 
 ## Images
 Screenshots of the deployed site
-``img 
-'\public\React About Me.jpg'
-'\public\React Contact Me.jpg'
-'\public\React Portfolio.jpg'
-'\public\React Resume.jpg'
-``
+![About](public/React_About_Me.jpg)
+![Contact](public/React_Contact_Me.jpg)
+![Portfolio](public/React_Portfolio.jpg)
+![Resume](public/React_Resume.jpg)
+
 ## Deployment
 The site is deployed on Netlify.
 
